@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "inventoryviewer",
+  "version": "${version}",
+  "name": "Inventory Viewer",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/b/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "a.b.client.BClient"
+    ],
+    "main": [
+      "a.b.B"
+    ]
+  },
+  "mixins": [
+    "b.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

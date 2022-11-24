@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "a.b.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AccessorServer"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
